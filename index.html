@@ -1,26 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-    	<meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-
-    	<meta name="description" content="This is where your description goes">
-    	<meta name="keywords" content="one, two, three">
-		<title>Title in the tab</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <meta name="Beat The Bot" content="A simple game of Rock Paper Scissors">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon.ico">
+    <link rel="icon" type="image/png" sizes="128x128" href="img/favicon.ico">
+    <link rel="icon" type="image/png" sizes="180X180" href="img/favicon.ico">
+		<title>Beat The Bot</title>
 		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/style.css">
 	</head>
 	<body>
-		<section class="container omg">
+
+    <!-- Logo -->
+		<section class="container img">
       <img id="logo" src="img/logo.png" alt="logo">
     </section>
   
-  
+    <!-- Scores -->
     <section class="scores">
       <h1 id="question">Can you beat the bot?</h1>
       <h2 id="winner"></h2> 
     </section>
   
+    <!-- Player Buttons  -->
     <section>
     <div class="playerBot"></div>
     <div id="playerButtons">
@@ -30,6 +34,7 @@
     </div>
     </section>
   
+    <!-- Buttons -->
     <section class='container'>
       <ul>
         <li><a href="#" class="button" id="reset">PLAY AGAIN</a></li>

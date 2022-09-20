@@ -108,24 +108,6 @@ resetButton.addEventListener('click', resetGame)
 resetGame()
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 const button = document.querySelector('#rules');
 const popup = document.createElement('div');
 popup.classList.add('popup');
