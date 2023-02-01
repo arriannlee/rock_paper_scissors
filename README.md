@@ -2,9 +2,9 @@
 
 This is a simple implementation of the classic game "Rock Paper Scissors" using HTML, CSS, and JavaScript.
 
-## Screenshots
+## Screenshot
 
-![App Screenshot](/img/screenshot.png)
+![Screenshot](screenshot.png)
 
 # Getting Started
 
