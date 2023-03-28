@@ -3,7 +3,7 @@ const paper = document.querySelector('#paper');
 const scissors = document.querySelector('#scissors');
 const playerBot = document.querySelector('.playerBot');
 const winner = document.querySelector('#winner');
-const question = document.querySelector('.question')
+const question = document.querySelector('#question')
 const playerButtons = document.querySelector('#playerButtons')
 
 const images = {
@@ -58,7 +58,6 @@ function displayBotChoice(choice) {
 
   playerBot.appendChild(container);
 
-  // document.querySelector('#playerButtons').style.display = 'none'
 
   if ((choice === 'rock' && botChoice === 'scissors') ||
       (choice === 'paper' && botChoice === 'rock') ||
@@ -126,43 +125,6 @@ resetGame()
 
 
 
-// function playGameXTimes(choices) {
-//   let playerScore = 0;
-//   let botScore = 0;
-
-//   for (let i = 1; i <= 3; i++) {
-//     let result = checkWin(choices[i - 1]);
-
-//     if (result === 'WIN') {
-//       playerScore++;
-//     } else if (result === 'LOSE') {
-//       botScore++;
-//     }
-//   }
-
-//   if (playerScore > botScore) {
-//     console.log(`Congratulations, you won ${playerScore}-${botScore}!`);
-//   } else if (playerScore < botScore) {
-//     console.log(`Sorry, you lost ${playerScore}-${botScore}.`);
-//   } else {
-//     console.log(`It's a tie ${playerScore}-${botScore}.`);
-//   }
-
-//   score = updateScore(score, playerScore);
-// }
-
-// function updateScore(currentScore, roundScore) {
-//   if (roundScore > 0) {
-//     currentScore++;
-//   }
-//   console.log(`Your score: ${currentScore}`);
-//   return currentScore;
-// }
-
-// playGameXTimes(['rock', 'paper', 'scissors']);
-
-
-
 
 const button = document.querySelector('#rules');
 const popup = document.createElement('div');
@@ -190,22 +152,6 @@ popup.addEventListener('click', () => {
 });
 
 
-// const resetButton = document.getElementById('reset');
-// resetButton.addEventListener('click', resetGame) 
-
-
-
-
-
-  // function resetGame() {
-  //   winner.textContent = '';
-  //   playerBot.innerHTML = '';
-  //   rock.style.display = 'block';
-  //   paper.style.display = 'block';
-  //   scissors.style.display = 'block';
-  //   question.style.display = 'block';
-  // }
-;
 
 
 
