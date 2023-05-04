@@ -4,7 +4,7 @@ This is a simple implementation of the classic game "Rock Paper Scissors" using 
 
 ## Screenshot
 
-![Screenshot](screenshot.png)
+![Screenshot](img/screenshot.png)
 
 # Getting Started
 
